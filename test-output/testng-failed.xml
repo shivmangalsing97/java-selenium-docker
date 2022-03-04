@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [book-flight-module]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="book-flight-2(failed)">
+    <parameter name="expectedPrice" value="$1169 USD"/>
+    <parameter name="noOfPassengers" value="2"/>
     <classes>
       <class name="com.newtours.tests.BookFlightTest">
         <methods>
@@ -16,5 +18,5 @@
         </methods>
       </class> <!-- com.newtours.tests.BookFlightTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- book-flight-2(failed) -->
+</suite> <!-- Failed suite [book-flight-module] -->

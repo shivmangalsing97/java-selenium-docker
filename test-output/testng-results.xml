@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-01T05:57:33Z" name="Default suite" finished-at="2022-03-01T05:57:34Z" duration-ms="440">
+  <suite started-at="2022-03-04T09:26:26Z" name="book-flight-module" finished-at="2022-03-04T09:26:27Z" duration-ms="706">
     <groups>
     </groups>
-    <test started-at="2022-03-01T05:57:33Z" name="Default test" finished-at="2022-03-01T05:57:34Z" duration-ms="440">
+    <test started-at="2022-03-04T09:26:26Z" name="book-flight-2" finished-at="2022-03-04T09:26:27Z" duration-ms="706">
       <class name="com.newtours.tests.BookFlightTest">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:33Z" name="setupDriver" finished-at="2022-03-01T05:57:34Z" duration-ms="393" status="FAIL">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:26Z" name="setupDriver" finished-at="2022-03-04T09:26:27Z" duration-ms="627" status="FAIL">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -24,7 +24,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
-at com.newtours.tests.BaseTest.setupDriver(BaseTest.java:43)
+at com.newtours.tests.BaseTest.setupDriver(BaseTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,11 +90,11 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method is-config="true" signature="setupPrameters(java.lang.String, java.lang.String)[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="setupPrameters" finished-at="2022-03-01T05:57:34Z" depends-on-methods="com.newtours.tests.BaseTest.setupDriver" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setupPrameters(java.lang.String, java.lang.String)[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="setupPrameters" finished-at="2022-03-04T09:26:27Z" depends-on-methods="com.newtours.tests.BaseTest.setupDriver" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPrameters -->
-        <test-method signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="registrationPageTest" finished-at="2022-03-01T05:57:34Z" duration-ms="0" status="SKIP">
+        <test-method signature="registrationPageTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="registrationPageTest" finished-at="2022-03-04T09:26:27Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -111,7 +111,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
-at com.newtours.tests.BaseTest.setupDriver(BaseTest.java:43)
+at com.newtours.tests.BaseTest.setupDriver(BaseTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -177,13 +177,13 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationPageTest -->
-        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="registrationConfirmationTest" finished-at="2022-03-01T05:57:34Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationPageTest" duration-ms="0" status="SKIP">
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="registrationConfirmationTest" finished-at="2022-03-04T09:26:27Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationPageTest" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method BookFlightTest.registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods]]>
+              <![CDATA[Method BookFlightTest.registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method BookFlightTest.registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method BookFlightTest.registrationConfirmationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -208,13 +208,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationConfirmationTest -->
-        <test-method signature="flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="flightsDetailsTest" finished-at="2022-03-01T05:57:34Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationConfirmationTest" duration-ms="0" status="SKIP">
+        <test-method signature="flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="flightsDetailsTest" finished-at="2022-03-04T09:26:27Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationConfirmationTest" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method BookFlightTest.flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods]]>
+              <![CDATA[Method BookFlightTest.flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method BookFlightTest.flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method BookFlightTest.flightsDetailsTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -239,13 +239,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightsDetailsTest -->
-        <test-method signature="findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="findFlightTest" finished-at="2022-03-01T05:57:34Z" depends-on-methods="com.newtours.tests.BookFlightTest.flightsDetailsTest" duration-ms="0" status="SKIP">
+        <test-method signature="findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="findFlightTest" finished-at="2022-03-04T09:26:27Z" depends-on-methods="com.newtours.tests.BookFlightTest.flightsDetailsTest" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method BookFlightTest.findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods]]>
+              <![CDATA[Method BookFlightTest.findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method BookFlightTest.findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method BookFlightTest.findFlightTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -270,13 +270,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findFlightTest -->
-        <test-method signature="FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="FlightConfermationTest" finished-at="2022-03-01T05:57:34Z" depends-on-methods="com.newtours.tests.BookFlightTest.findFlightTest" duration-ms="0" status="SKIP">
+        <test-method signature="FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="FlightConfermationTest" finished-at="2022-03-04T09:26:27Z" depends-on-methods="com.newtours.tests.BookFlightTest.findFlightTest" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method BookFlightTest.FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods]]>
+              <![CDATA[Method BookFlightTest.FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method BookFlightTest.FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method BookFlightTest.FlightConfermationTest()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -301,11 +301,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightConfermationTest -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.newtours.tests.BookFlightTest@3eb77ea8]" started-at="2022-03-01T05:57:34Z" name="quitBrowser" finished-at="2022-03-01T05:57:34Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.newtours.tests.BookFlightTest@45b4c3a9]" started-at="2022-03-04T09:26:27Z" name="quitBrowser" finished-at="2022-03-04T09:26:27Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.newtours.tests.BookFlightTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- book-flight-2 -->
+  </suite> <!-- book-flight-module -->
 </testng-results>

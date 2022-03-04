@@ -2,13 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [book-flight-module]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="book-flight-2(failed)">
-    <parameter name="expectedPrice" value="$11609 USD"/>
+    <parameter name="expectedPrice" value="$1169 USD"/>
     <parameter name="noOfPassengers" value="2"/>
     <classes>
       <class name="com.newtours.tests.BookFlightTest">
         <methods>
           <include name="registrationPageTest"/>
           <include name="setupDriver"/>
+          <include name="setupPrameters"/>
           <include name="FlightConfermationTest"/>
           <include name="registrationConfirmationTest"/>
           <include name="findFlightTest"/>

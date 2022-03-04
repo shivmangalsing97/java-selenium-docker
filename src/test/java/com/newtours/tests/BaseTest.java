@@ -14,10 +14,6 @@ public class BaseTest {
 
 	protected WebDriver driver ;
 	
-	//BROWSER => chrome / firefox
-	// HUB_HOST => localhost / 10.0.1.3 / hostname
-	
-	
 	
 	@BeforeTest
 	public void setupDriver() throws MalformedURLException {
